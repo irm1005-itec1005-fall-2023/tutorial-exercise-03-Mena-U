@@ -7,59 +7,33 @@ main .light-box {
   text-emphasis-color: #1d3557ff;
 }
 
-main .dark-box {
+main .dark-box *{
   padding: 1rem;
   margin: 2rem 0;
   background-color: #242121;
   border-radius: 0.5rem;
   text-emphasis-color: #f5f5f5;
-  
+  text-emphasis-color: #e63946ff;
+  text-emphasis-color: #090909;
 }
 
-Create a selector that targets the link in the dark box and add the following styles to it
-
-  7. Add a text color of #e63946ff
-
-*/
-
-/* Styles for the red box */
-
-/*
-
-Create a class called red-box and add the following styles to it
-
+main .red-box {
   padding: 1rem;
   margin: 2rem 0;
-  8. Add a background colour of #e63946ff
-  9. Add a border radius of 0.5rem
-  10. Add a text color of #f5f5f5
+  background-color: #e63946ff;
+  border-radius: 0.5rem;
+  text-emphasis-color: #f5f5f5
+}
 
-*/
-
-/* Styles for the link in the dark box */
-
-/*
-
-Create a selector that targets the link in the dark box and add the following styles to it
-
-  11. Add a text color of #090909
-
-*/
-
-/* Styles for the blux box */
-
-/*
-
-Create a class called blue-box and add the following styles to it
-
+main .blue-box {
   padding: 1rem;
   margin: 2rem 0;
+  background-color: #457b9dff;
+  border-radius: 0.5rem;
+  text-emphasis-color: #f5f5f5;
+} 
 
-  12. Add a background colour of #457b9dff
-  13. Add a border radius of 0.5rem
-  14. Add a text color of #f5f5f5
 
-*/
 
 /* Use psuedo classes nth-child(even) to give ever second list item in main a different background colour and text color
 hint: li:nth-child(odd)
