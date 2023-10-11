@@ -33,7 +33,7 @@ main .blue-box {
   text-emphasis-color: #f5f5f5;
 } 
 
-
+li: :nth-child(even)
 
 /* Use psuedo classes nth-child(even) to give ever second list item in main a different background colour and text color
 hint: li:nth-child(odd)
